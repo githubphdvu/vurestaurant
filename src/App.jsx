@@ -91,7 +91,7 @@ function Navbar() {
   return (
     <nav  id="home" className="bg-gray-900 text-white px-4 py-3 flex items-center justify-between">
       <a href="https://alanvu.vercel.app" className="flex items-center">
-        <img src="https://projectsav.netlify.app/logo1.jpg" alt="" className="h-10 rounded-md"/>
+        <img src="https://projectsav.netlify.app/logo1.jpg" alt="" className="h-12 rounded-md"/>
       </a>
       <a href="#home" className="flex items-center">
         <img src='phologo.jpg' alt="" className="w-40 h-14 rounded-full"/>
@@ -184,7 +184,7 @@ const Menu = () => (
 )
 const Chef = () => (
   <div className="bg-black text-white py-12 px-6">
-    <div className="flex justify-center mb-8"><img src='chef.jpg' alt="" className="rounded-full shadow-lg w-48 h-48 object-cover"/></div>
+    <div className="flex justify-center mb-8"><img src='chef.jpg' alt="" className="shadow-lg object-cover"/></div>
     <div className="text-center mb-8">
       <p className="text-3xl font-semibold text-gold mb-4">⚔️ <span className="headtext__cormorant">I cook and code for you ⚒️</span></p>
         <div className="app__chef-content_quote flex justify-center items-center mb-6">          
@@ -221,13 +221,13 @@ const Awards = () => (
 )
 const Hours = () => (
   <div id="hours" className="flex flex-col lg:flex-row items-center lg:justify-between gap-8">
+    <img src='findus.jpg' alt="" className="lg:w-1/2 rounded-lg shadow-lg object-cover ml-10"/>
     <div className="text-center lg:text-left lg:w-1/2">
       <h1 className="text-4xl font-bold text-gold mb-12">Open Hours</h1>
       <p className="text-lg  mb-4">Mon - Fri: 10:00 am - 9:00 pm</p>
       <p className="text-lg  mb-6">Sat - Sun: 10:00 am - 11:00 pm</p>  
       <a href="#home" className="inline-block px-6 py-3 bg-yellow-500 text-white font-medium text-lg rounded-lg shadow-md hover:bg-yellow-600 transition duration-300">Home</a>
     </div>
-    <img src='findus.jpg' alt="" className="lg:w-1/2 rounded-lg shadow-lg object-cover"/>
   </div>
 )
 //////////////////////////
